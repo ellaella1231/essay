@@ -1,0 +1,4 @@
+DROP TABLE IF EXISTS errors;
+DROP TABLE IF EXISTS essays;
+DROP TABLE IF EXISTS grade_standards;
+DROP TABLE IF EXISTS users;
