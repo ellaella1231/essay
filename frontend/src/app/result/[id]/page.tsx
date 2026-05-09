@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import { ChevronLeft, CheckCircle2, Sparkles, BookOpen } from "lucide-react";
+import { ChevronLeft, Sparkles, BookOpen } from "lucide-react";
 
 const MOCK_RESULT = {
   score: 85,

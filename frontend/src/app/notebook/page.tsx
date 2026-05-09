@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import { Camera, BookOpen, Check, Trash2 } from "lucide-react";
+import { Camera, BookOpen, Check } from "lucide-react";
 
 const INITIAL_MISTAKES = [
   {

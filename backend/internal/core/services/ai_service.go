@@ -49,7 +49,7 @@ func (s *aiService) ProcessEssay(ctx context.Context, imagePath, promptText, rub
 
 	ocrPrompt := "Transcribe the handwritten English text in this image exactly as written. Do not correct any mistakes."
 	ocrReq := openai.ChatCompletionRequest{
-		Model: openai.GPT4o,
+		Model: openai.GPT4VisionPreview,
 		Messages: []openai.ChatCompletionMessage{
 			{
 				Role: openai.ChatMessageRoleUser,
@@ -99,7 +99,7 @@ You must return a JSON object strictly matching this structure:
 }`, rubricText, promptText, studentContent)
 
 	gradingReq := openai.ChatCompletionRequest{
-		Model: openai.GPT4o,
+		Model: openai.GPT4TurboPreview,
 		ResponseFormat: &openai.ChatCompletionResponseFormat{
 			Type: openai.ChatCompletionResponseFormatTypeJSONObject,
 		},

@@ -33,7 +33,7 @@ export default function LoginPage() {
       } else {
         setError("Invalid OTP");
       }
-    } catch (err) {
+    } catch {
       setError("Login failed");
     }
   };

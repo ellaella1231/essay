@@ -2,7 +2,6 @@ package controllers
 
 import (
 	"context"
-	"io"
 	"net/http"
 	"os"
 	"path/filepath"

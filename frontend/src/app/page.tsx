@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { Camera, Upload, BookOpen, ChevronRight } from "lucide-react";
+import { Camera, Upload, BookOpen } from "lucide-react";
 import Link from "next/link";
 
 export default function HomePage() {
